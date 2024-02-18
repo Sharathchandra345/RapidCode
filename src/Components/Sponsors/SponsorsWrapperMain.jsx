@@ -38,7 +38,6 @@ const SponsorSVG = styled.img`
   display: none;
   height: 350px;
   padding: 0 3rem;
-
   @media(min-width: 850px) {
     display: block;
 `;
@@ -90,7 +89,7 @@ function SponsorsWrapperMain() {
           <h1
             className="main-heading"
             data-content="Sponsors"
-            style={{ textAlign: "center" }}
+            style={{ marginLeft: "60px" }}
           >
             Sponsors
           </h1>

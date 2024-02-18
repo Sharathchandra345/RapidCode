@@ -36,8 +36,11 @@
   width: 400px;
 }
 #img_wb {
-  height: 100px;
-  width: 400px;
+  padding-top: 20px;
+  height: 130px;
+  width: 200px;
+  min-height: auto;
+  min-width: auto;
 }
 #img_tezos {
   height: 100px;
