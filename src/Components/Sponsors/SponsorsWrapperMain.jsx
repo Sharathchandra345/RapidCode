@@ -13,7 +13,7 @@ import gdsc_bu from "../../images/gdsc_bu.png";
 import taskade from "../../images/taskade.png";
 import bal from "../../images/bal.png";
 import hhe from "../../images/hhe.png";
-import wb from "../../images/wb.png";
+import wb from "../../images/ethindia.png";
 import "./sponsors.css";
 
 const SponsorsWrapper = styled.div`
@@ -96,12 +96,12 @@ function SponsorsWrapperMain() {
           </h1>
         </TitleDiv>
       </SponsorHeading>
-      <h3 className="center-custom">Coming Soon !</h3>
-      {/* <div className="sponsors-div">
+      {/* <h3 className="center-custom">Coming Soon !</h3> */}
+      <div className="sponsors-div">
         <Row>
-          <h2 className="subheading" id="desktop" data-content="Title Sponsors">
+          {/* <h2 className="subheading" id="desktop" data-content="Title Sponsors">
             Title Sponsors
-          </h2>
+          </h2> */}
           <div className="mobile_heading_sponsor">
             <h2 className="subheading" id="mobile" data-content="Title">
               Title
@@ -118,6 +118,7 @@ function SponsorsWrapperMain() {
             <Img
               id="img_devfolio"
               src={devfolio}
+              alt="DEVFOLIO LOGO"
               onClick={() => {
                 window.location.href = "https://devfolio.co";
               }}
@@ -127,6 +128,7 @@ function SponsorsWrapperMain() {
             <Img
               id="img_polygon"
               src={polygon}
+              alt="POLYGON LOGO"
               onClick={() => {
                 window.location.href = "https://polygon.technology/";
               }}
@@ -135,14 +137,15 @@ function SponsorsWrapperMain() {
           <Col className="title_sponsors">
             <Img
               id="img_wb"
+              alt="ETHINDIA LOGO"
               src={wb}
               onClick={() => {
-                window.location.href = "https://wandb.ai/site";
+                window.location.href = "https://ethindia.co/";
               }}
             />
           </Col>
         </Row>
-        <Row>
+        {/*<Row>
           <h2
             className="subheading desktop"
             id="desktop"
@@ -166,8 +169,8 @@ function SponsorsWrapperMain() {
                 window.location.href = "https://tezos.com";
               }}
             />
-          </Col>
-          <Col className="power_sponsors">
+          </Col> 
+           <Col className="power_sponsors">
             <Img
               id="img_celo"
               src={celo}
@@ -262,9 +265,8 @@ function SponsorsWrapperMain() {
               }}
             />
           </Col>
-        </Row> 
+        </Row>*/}
       </div>
-    */}
     </SponsorsWrapper>
   );
 }
