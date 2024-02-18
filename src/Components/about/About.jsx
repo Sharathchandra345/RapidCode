@@ -17,21 +17,24 @@ const About = () => {
                 About
               </h2>
               <p style={{ paddingBottom: "1rem" }}>
-                Digital Village Hackathon is an international level initiative
-                for students to compete in solving pressing problems in the
-                domain of precision agriculture, under the project “Digital
-                Village: A Data-Driven Approach to Precision Agriculture in
-                Small Farms” joint initiative of TIET-TAU Center of Excellence
-                for Food Security (T²CEFS)
+                ‘'Rapid Code” sparks coding passion with hands-on challenges,
+                workshops, and expert-led discussions. Whether a seasoned
+                developer or beginner, this event provides a platform to enhance
+                skills, explore Google tech, and collaborate. Focused on code
+                quality, efficiency, and creativity, it empowers students for
+                real-world success in tech's fast-paced landscape. RAPID CODE
+                Join us to create an impact that broadens perspectives and
+                equips participants with the knowledge to thrive in
+                the tech industry!
               </p>
 
-              <p>
+              {/* <p>
                 The students would have the opportunity to work on challenges
                 faced in the field of precision agriculture and use various
                 technologies in the domain of machine learning, deep learning,
                 computer vision, data science, etc. to create world class
                 solutions that will have practical applications in agriculture.
-              </p>
+              </p> */}
             </div>
           </div>
         </div>

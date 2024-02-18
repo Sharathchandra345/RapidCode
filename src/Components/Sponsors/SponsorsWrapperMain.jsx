@@ -85,18 +85,19 @@ function SponsorsWrapperMain() {
   return (
     <SponsorsWrapper id="sponsors">
       <SponsorHeading>
-        <SponsorSVG src={spn} />
+        {/* <SponsorSVG src={spn} /> */}
         <TitleDiv>
           <h1
             className="main-heading"
             data-content="Sponsors"
-            // style={{ textAlign: "center" }}
+            style={{ textAlign: "center" }}
           >
             Sponsors
           </h1>
         </TitleDiv>
       </SponsorHeading>
-      <div className="sponsors-div">
+      <h3 className="center-custom">Coming Soon !</h3>
+      {/* <div className="sponsors-div">
         <Row>
           <h2 className="subheading" id="desktop" data-content="Title Sponsors">
             Title Sponsors
@@ -261,8 +262,9 @@ function SponsorsWrapperMain() {
               }}
             />
           </Col>
-        </Row>
+        </Row> 
       </div>
+    */}
     </SponsorsWrapper>
   );
 }

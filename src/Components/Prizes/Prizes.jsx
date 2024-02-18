@@ -102,7 +102,7 @@ function Prizes() {
           </h1>
         </TitleDiv>
       </PrizesHeading>
-      <div className="prizes-div">
+      {/* <div className="prizes-div">
         <Row className="top-prizes">
           <Col md={4}>
             <PrizesCard classname="prize-card" id="second">
@@ -190,7 +190,8 @@ function Prizes() {
             </PrizesCard>
           </Col>
         </Row>
-      </div>
+      </div> */}
+      <h3 className="center-custom">Coming Soon !</h3>
     </PrizesWrapper>
   );
 }

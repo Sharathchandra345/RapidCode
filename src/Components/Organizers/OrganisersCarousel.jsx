@@ -135,7 +135,7 @@ function OrganisersCarousel() {
           Organisers
         </h1>
       </TitleDiv>
-      <CarouselDiv>
+      {/* <CarouselDiv>
         <Swiper
           spaceBetween={40}
           slidesPerView={3}
@@ -182,13 +182,14 @@ function OrganisersCarousel() {
                 </PictureDiv>
                 <OrganiserBody>
                   <OrganiserName>{Organiser.name}</OrganiserName>
-                  {/* <OrganiserDes>{Organiser.des}</OrganiserDes> */}
+                 <OrganiserDes>{Organiser.des}</OrganiserDes>
                 </OrganiserBody>
               </OrganiserCard>
             </SwiperSlide>
           ))}
         </Swiper>
-      </CarouselDiv>
+      </CarouselDiv> */}
+      <h3 className="center-custom">Coming Soon !</h3>
     </OrganisersWrapper>
   );
 }

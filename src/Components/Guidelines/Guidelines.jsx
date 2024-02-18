@@ -12,7 +12,7 @@ export default function Guidelines() {
         >
           Guidelines
         </h1>
-        <img className="guide-image" src={guide} />
+        {/* <img className="guide-image" src={guide} />
         <div className="points">
           <ul>
             <li>
@@ -95,7 +95,8 @@ export default function Guidelines() {
             Please note:{"  "} Offline Registrations will begin soon, stay tuned
             to our social media handles for further notifications.
           </span>
-        </div>
+        </div>*/}
+        <h3 className="center-custom">Coming Soon !</h3>
       </div>
     </div>
   );

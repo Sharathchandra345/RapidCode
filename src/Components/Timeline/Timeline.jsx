@@ -22,7 +22,7 @@ const TimelineDiv = () => {
       <h2 className="main-heading" data-content="Timeline">
         Timeline
       </h2>
-      <Timeline position="alternate">
+      {/* <Timeline position="alternate">
         <TimelineItem>
           <TimelineOppositeContent
             sx={{ m: "auto 0" }}
@@ -270,7 +270,8 @@ const TimelineDiv = () => {
             <Typography>Closing ceremony for the hack</Typography>
           </TimelineContent>
         </TimelineItem>
-      </Timeline>
+      </Timeline> */}
+      <h3 className="center-custom">Coming Soon !</h3>
     </div>
   );
 };

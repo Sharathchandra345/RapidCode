@@ -136,7 +136,7 @@ function SwiperCarousel() {
           Judges
         </h1>
       </TitleDiv>
-      <CarouselDiv>
+      {/* <CarouselDiv>
         <Swiper
           spaceBetween={40}
           slidesPerView={3}
@@ -189,7 +189,8 @@ function SwiperCarousel() {
             </SwiperSlide>
           ))}
         </Swiper>
-      </CarouselDiv>
+      </CarouselDiv> */}
+      <h3 className="center-custom">Coming Soon !</h3>
     </SpeakersWrapper>
   );
 }

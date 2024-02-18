@@ -1,5 +1,5 @@
 import { useEffect, useRef } from "react";
-import gdc from "./assets/gdc.png";
+import rc from "../../images/rapidCodeLogo.png";
 import line from "./assets/loader.svg";
 import { gsap } from "gsap";
 import styled from "@emotion/styled";
@@ -24,8 +24,14 @@ const LoaderDiv = styled.div`
 
 const Logo = styled.img`
   margin: 1rem;
+  width: 300px;
+  height: auto;
 `;
-const Line = styled.img``;
+
+const Line = styled.img`
+  width: 50px;
+  height: auto;
+`;
 
 function Loader() {
   const wrapper = useRef(null);
@@ -37,7 +43,7 @@ function Loader() {
       .to(loaderRef.current, {
         // transformOrigin: "left",
         marginLeft: "0%",
-        width: "275px",
+        width: "10px",
         // transform: "translateX(100%)",
         duration: 2,
         ease: "power1.inOut",
@@ -54,7 +60,7 @@ function Loader() {
   return (
     <LoaderWrapper ref={wrapper}>
       <LoaderDiv>
-        <Logo src={gdc} alt="" />
+        <Logo src={rc} alt="" />
         <Line src={line} ref={loaderRef} alt="loader" />
       </LoaderDiv>
     </LoaderWrapper>

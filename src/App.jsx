@@ -32,11 +32,11 @@ function App() {
       <WrapperDiv>
         <About />
         {/* <Element /> */}
-        <LogoSection />
+        {/* <LogoSection /> Ye Collabrators ka component */}
         <Guidelines />
         <Timeline />
       </WrapperDiv>
-      <ProblemStatements />
+      {/* <ProblemStatements /> */}
       <SponsorsWrapperMain />
       {/* <Speakers /> */}
       <OrganisersCarousel />
