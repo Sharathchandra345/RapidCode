@@ -3,8 +3,8 @@ import spn from "./img.png";
 import Sponsors from "../../data/sponsors.js";
 import styled from "@emotion/styled";
 import { Row } from "react-bootstrap";
-import devfolio from "../../images/devfolio.png";
-import polygon from "../../images/polygon.png";
+import devfolio from "../../images/Devfolio_Logo-White.png";
+import polygon from "../../images/Polygon_Logo-White.png";
 import tezos from "../../images/tezos.png";
 import celo from "../../images/celo.png";
 import filecoin from "../../images/filecoin.png";
@@ -13,7 +13,7 @@ import gdsc_bu from "../../images/gdsc_bu.png";
 import taskade from "../../images/taskade.png";
 import bal from "../../images/bal.png";
 import hhe from "../../images/hhe.png";
-import wb from "../../images/ethindia.png";
+import wb from "../../images/ethindia-light.png";
 import "./sponsors.css";
 
 const SponsorsWrapper = styled.div`

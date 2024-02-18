@@ -63,12 +63,11 @@ const Landing = () => {
             </svg>
             {"  "}Apply with Devfolio
           </button> */}
-     
           <div
-            class="apply-button"
+            className="apply-button"
             data-hackathon-slug="rapid-code"
-            data-button-theme="light"
-            style="height: 44px; width: 312px"
+            data-button-theme="dark-inverted"
+            style={{ height: "44px", width: "312px", overflow: "hidden" }}
           ></div>
         </div>
       </div>

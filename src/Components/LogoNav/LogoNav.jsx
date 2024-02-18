@@ -33,6 +33,9 @@ const LogoDiv = styled.div`
 
 const DSCLogo = styled.div`
   transform: translateX(-50px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
   @media (max-width: 1400px) {
     width: 100%;
     margin: 0 0 3vh 2rem;
@@ -65,23 +68,7 @@ export default function Nav() {
     <NavDiv>
       <LogoDiv className="nav-item">
         {/* <a href="#"> */}
-        <img
-          src={tel}
-          alt=""
-          style={{
-            objectFit: "contain",
-            position: "relative",
-            top: "5px",
-            left: "15px",
-          }}
-          height="90px"
-          width="140px"
-        />
-        {/* </a> */}
-      </LogoDiv>
-      <LogoDiv className="nav-item">
-        {/* <a href="#"> */}
-        <img
+        {/* <img
           src={meity}
           style={{
             objectFit: "contain",
@@ -92,22 +79,26 @@ export default function Nav() {
           alt=""
           height="100px"
           width="200px"
-        />
+        /> */}
         {/* </a> */}
       </LogoDiv>
       <LogoDiv className="nav-item">
         {/* <a href="#"> */}
         <Dsclog
           src={dsc}
-          style={{ objectFit: "contain" }}
+          style={{ display: "flex" }}
           alt=""
           height="80px"
           width="530px"
         />
         {/* </a> */}
       </LogoDiv>
-      <LogoDiv className="nav-item">
-        {/* <a> */}
+    </NavDiv>
+  );
+}
+{
+  /* <LogoDiv className="nav-item">
+         <a> 
         <img
           src={step}
           style={{
@@ -120,10 +111,10 @@ export default function Nav() {
           height="100px"
           width="200px"
         />
-        {/* </a> */}
+        </a>
       </LogoDiv>
       <LogoDiv className="nav-item">
-        {/* <a href="#"> */}
+        
         <img
           src={ti}
           alt=""
@@ -136,8 +127,6 @@ export default function Nav() {
           height="80px"
           width="60px"
         />
-        {/* </a> */}
-      </LogoDiv>
-    </NavDiv>
-  );
+   
+      </LogoDiv> */
 }
